@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VoteChain</title>
+
+    <meta name="title" content="VoteChain">
+    <meta name="description" content="This is a prototype of the login page for VoteChain">
+
+    <link rel="shortcut icon" href="./loginpagesvg.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&family=Unkempt:wght@400;700&family=Great+Vibes&family=Lobster&family=Atelier+Femme&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+    </div>
+
+    <!-- PRELOADER-->
+    <div class="preload" data-preload>
+        <p class="text">VOTECHAIN</p>
+    </div>
+
+
+    <!-- TOP BAR -->
+
+
+    <!-- HEADER -->
+    <header class="header" data-header>
+
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="./loginpagesvg.svg" width="100" height="50" alt="logo">
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+                
+                <a href="#" class="logo">
+                    <img src="./loginpagesvg.svg" width="100" height="50" alt="Sam">
+                </a>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <span class="span">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#candidates-section" class="navbar-link hover-underline">
+
+                            <div class="separator"></div>
+
+                            <span class="span">View Candidates</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link hover-underline">
+
+                            <div class="separator"></div>
+
+                            <span class="span">About Us</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#date" class="navbar-link hover-underline">
+
+                            <div class="separator"></div>
+
+                            <span class="span">Privacy</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#Contact" class="navbar-link hover-underline">
+
+                            <div class="separator"></div>
+
+                            <span class="span">Contact</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="text-center">
+                    <p class="headline-1 navbar-title">Visit Us</p>
+
+                    <address class="body-4">Something here, <br>
+                        Sentinels
+                    </address>
+
+                    <p class="body-4 navbar-text">Time:- 08:00 - 21:00</p>
+
+                    <a href="mailto:aayushsaxena1008@gmail.com" class="sidebar-link body-s">aayushsaxena1008@gmail.com</a>
+
+                    <div class="separator"></div>
+
+                    <p class="contact-label">Meeting Request</p>
+
+                    <a href="tel:+91-9893700234" class="body-1 contact-number hover-underline">+91-9893700234</a>
+                </div>
+
+            </nav>
+
+            <a href="#content-1" class="btn btn-secondary" id="loginBtn">
+                <span class="text text-1">Login</span>
+                <span class="text text-2" aria-hidden="true">Login</span>
+            </a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+        <article>
+
+            <!-- HERO -->
+
+            <section class="hero text-center" aria-label="home" id="home">
+
+                <ul class="hero-slider" data-hero-slider>
+
+                    <li class="slider-item active" data-hero-slider-item>
+
+                        <div class="slider-bg">
+                            <img src="./images/WhatsApp Image 2024-09-04 at 23.35.23_6b0ed82a.jpg" width="1880" height="950" alt="" class="img-cover">
+                        </div>
+                        <p class="label-2 section-subtitle slider-reveal">Secure, Fast, and Online</p>
+                        <h1 class="display-1 hero-title slider-reveal">
+                            Your Vote, Your Future <br> 
+                            Vote Online
+                        </h1>
+                        <p class="body-2 hero-text slider-reveal">Leveraging Blockchain Technology for people with laziness</p>
+                        <a href="#login-section" class="btn btn-secondary slider-reveal" id="loginBtn">
+                            <span class="text text-1">Login</span>
+                            <span class="text text-2" aria-hidden="true">Login</span>
+                        </a>
+                    </li>
+
+                    <!-- <li class="slider-item" data-hero-slider-item>
+                        <div class="slider-bg">
+                            <img src="./images/hero-img-2.jpg" width="1880" height="950" alt="" class="img-cover">
+                        </div>
+                        <p class="label-2 section-subtitle slider-reveal">Feliz cumpleaños, mi amor</p>
+                        <h1 class="display-1 hero-title slider-reveal">
+                            
+                        </h1>
+                        <p class="body-2 hero-text slider-reveal"></p>
+                        <a href="#about" class="btn btn-primary slider-reveal">
+                            <span class="text text-1">Celebrate Us</span>
+                            <span class="text text-2" aria-hidden="true">Celebrate Us</span>
+                        </a>
+                    </li>
+
+                    <li class="slider-item" data-hero-slider-item>
+                        <div class="slider-bg">
+                            <img src="./images/hero-img-3.jpg" width="1880" height="950" alt="" class="img-cover">
+                        </div>
+                        <p class="label-2 section-subtitle slider-reveal"></p>
+                        <h1 class="display-1 hero-title slider-reveal">
+                             <br> 
+                            
+                        </h1>
+                        <p class="body-2 hero-text slider-reveal"></p>
+                        <a href="#date" class="btn btn-secondary">
+                            <span class="text text-1">Login</span>
+                            <span class="text text-2" aria-hidden="true">Login</span>
+                        </a>
+                    </li>
+
+                </ul> -->
+
+                <button
+                class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+                    <ion-icon name="chevron-back"></ion-icon>
+                </button>
+
+                <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+                    <ion-icon name="chevron-forward"></ion-icon>
+                </button>
+
+
+            </section>
+
+            <!-- LOGIN SECTION -->
+            <section id="login-section" class="login-section">
+                <div class="login-container">
+                    <h2 class="login-title">Login</h2>
+                    <form id="loginForm" class="login-form">
+                        <label for="userAddress">Enter Your Address:</label>
+                        <input type="text" id="userAddress" name="userAddress" class="login-input" required>
+            
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" class="login-input" required>
+            
+                        <button type="submit" class="login-button">Login</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- START -->
+
+            <section id="election-section">
+                <div class="election-container">
+                    <h2>Start Election</h2>
+                    <div class="form-group">
+                        <label for="duration">Duration:</label>
+                        <input type="number" id="duration" placeholder="Enter duration" />
+                    </div>
+                    <div class="form-group">
+                        <label for="candidates">Candidates:</label>
+                        <input type="text" id="candidates" placeholder="Enter candidates" />
+                    </div>
+                    <button id="startElection">Start Election</button>
+                </div>
+            </section>
+            
+
+            <!-- TABLE -->
+
+            <section id="candidates-section">
+
+                <div class="container">
+
+                    <h2>Election Candidates</h2>
+                    <table id="candidatesTable">
+                        <thead>
+                            <tr>
+                                <th>Candidate ID</th>
+                                <th>Name</th>
+                                <th>Votes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows -->
+                        </tbody>
+                    </table>
+
+                    <div class="voting-section">
+                        <h2>Vote</h2>
+                        <label for="candidate">Candidate ID: </label>
+                        <input type="number" id="Vote" placeholder="Enter candidate ID" />
+                        <br>
+                        <button id="voteButton">Vote</button>
+                    </div>
+                </div>
+            </section>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+            <h2>Connect Your Wallet</h2>
+            <form id="signupForm">
+                <label for="address">Enter Your Address:</label>
+                <input type="text" id="address" name="address" required>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div> -->
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+    
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+
+</body>
+</html>

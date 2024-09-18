@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoteChain</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>VoteChain</h1>
+
+    <div id="ConnectMetaMask">
+        <p id="message">Please Connect Your MetaMask</p>
+        <button id="ConnectWallet">Connect Wallet</button>
+    </div>
+
+    <br>
+
+    <div>
+        <h2>Start Election</h2>
+        <label for="duration">Duration: </label>
+        <input type="number" id="duration" placeholder="Enter duration" />
+        <br>
+        <label for="candidates">Candidates: </label>
+        <input type="text" id="candidates" placeholder="Enter candidates" />
+        <br>
+        <button id="startElection">Start Election</button>
+    </div>
+
+    <hr>
+
+    <div>
+        <h2>Vote</h2>
+        <label for="candidate">Candidate Name: </label>
+        <input type="number" id="Vote" placeholder="Enter candidate name" />
+        <br>
+        <button id="voteButton">Vote</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+
+    <script type="module" src="./owner.js"></script>
+</body>
+</html>
